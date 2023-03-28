@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h3>Q1.Write the code to access element which is having id as "text"</h3>
+    <div id="text">Welcome to PrepBytes</div>
+    <button onclick="callMe()">Submit</button>
+<br>
+<hr>
+<h3>Q2.Write the code to access element which is having tag as "h1"</h3>
+    <h1> Welcome to prepbytes</h1>
+    <button onclick="callMe()">Submit</button>
+<br>
+<hr>
+<h3>Q3.Write the code to access element which is having class as "box"</h3>
+<div class="box"> Welcome to prepbytes</div>
+<button onclick="callMe()">Submit</button>
+<br>
+<hr>
+<h3>Q4.</h3>
+<h1>Hello</h1>
+<button onclick="call()">Submit</button>
+<br>
+<hr>
+<h3>Q5.Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"</h3>
+<div class="head">Hello World</div>
+<button onclick="replace()">Replace Text</button> 
+<br>
+<hr>
+<h3>Q6.</h3>
+<h1>Hello</h1>
+<br>
+<hr>
+<h3>Q7.Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.</h3>
+<div class="parent">
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+</div>
+<button class="set">SetData</button>
+<br>
+<hr>
+<h2>Q8-Whats the difference between window vs document?</h2>
+    <pre>
+* Document
+It represents the document loaded inside the window or browser.
+The properties related to it are stored in the document object.
+It is loaded after the loading window because the window contains a document.
+It is the root element of the document object model.
+It is an object of the window.	
+We can not access windows objects properties inside the document.
+Example: document.title will return the title of the document
+logically:
+
+document:{ properties}
+
+
+
+Window
+It represents the browser window in which you are seeing the content.
+The properties related to it are stored in the window object.
+It is loaded before the document because of the window container document.
+The window is the global element for all objects, functions, etc.
+It is an object of the browser.
+We can access document object properties inside the window.
+Example: window.document.title will return the title of the document.
+logically:
+    window:{
+        document:{properties}
+    }
+</pre>
+<br>
+<hr>
+<h2>Q9-Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</h2>
+ <div id="text1"></div>
+<button onclick="hello()">start clock</button> 
+
+
+    <!-- <div class="text1">
+        <h1> Welcome to prepbytes</h1>
+        <button onclick="callMe()">Submit here</button>
+    </div>
+    <h1>Welcome to prepbytes</h1>  -->
+    <script src="./index.js"></script> 
+</body>
+</html>
