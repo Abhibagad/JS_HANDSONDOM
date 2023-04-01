@@ -18,6 +18,7 @@ body{
     margin-left: 503px;
     font-size: 40px;
     color: white;
+    
 }
 .line{
     width: 100%;
@@ -51,6 +52,7 @@ body{
 .head2{
     display: inline;
     margin-left: 480px;
+    font-size: 30px;
 }
 .head3{
     margin-left:500px ;
