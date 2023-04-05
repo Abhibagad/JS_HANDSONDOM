@@ -32,21 +32,21 @@
 // });
 
 
-// let parent = document.querySelector('.parent');
-// let btn = document.querySelector('.set');
-// let count=0;
-// btn.addEventListener('click', () => {
-// if(count%2 === 0){
-//     parent.setAttribute('style', 'flex-direction:column');
-//     count++;
-//     console.log(count);
-// }
-// else{
-//     parent.setAttribute('style', 'flex-direction:row');
-//     count++;
-//     console.log(count);
-// }
-// })
+let parent = document.querySelector('.parent');
+let btn = document.querySelector('.set');
+let count=0;
+btn.addEventListener('click', () => {
+if(count%2 === 0){
+    parent.setAttribute('style', 'flex-direction:column');
+    count++;
+    console.log(count);
+}
+else{
+    parent.setAttribute('style', 'flex-direction:row');
+    count++;
+    console.log(count);
+}
+})
 
 
 
